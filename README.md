@@ -1,2 +1,2 @@
 # CV_FloLes
-Mon CV
+Mon premier CV en HTML, CSS et un peu de JS !
