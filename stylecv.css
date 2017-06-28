@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    color: #737373;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+
+/* header */
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/* nav bar*/
+
+nav {
+    background-color: #011291;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    display: inline-flex;
+    font-family: 'Rubik', sans-serif;
+    font-variant: small-caps;
+    padding: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: inherit;
+}
+
+
+/*presentation*/
+
+#presentation {
+    background-color: #737373;
+    color: white;
+    margin-top: -20px;
+    padding-top: 5px;
+}
+
+.picture {
+    width: 40%;
+    display: inline-block;
+}
+
+.picture img {
+    width: 45%;
+    float: left;
+    padding: 20px 20px 20px 180px;
+}
+
+.align {
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: bottom;
+}
+
+
+/*experience*/
+
+.subcolor {
+    color: #011291;
+}
+
+.logopop_up {
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo:nth-child(2) {
+    align-self: center;
+}
+
+.logo:nth-child(3) {
+    align-self: center;
+}
+
+.logo:nth-child(4) {
+    align-self: center;
+}
+
+.logo:hover {
+    filter: opacity(0.5);
+}
+
+
+/*Formations*/
+
+#formations {
+    background-color: #737373;
+    color: white;
+    padding-top: 5px;
+}
+
+.logo_f {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_f figcaption {
+    text-align: center;
+}
+
+.logo_f figure:hover {
+    background-color: transparent;
+    box-shadow: 0 3px 10px #011291;
+}
+
+/*competences*/
+
+#competence {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#competence p {
+    margin: -.5px;
+}
+
+.col_g {
+    display: inline-block;
+    padding: 10px;
+}
+
+.col_m {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.col_d {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+/*Hobbies*/
+
+#interet {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: center;
+}
+
+/*Contact*/
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #737373;
+    color: white;
+    padding: 5px;
+    margin-bottom: -20px;
+}
+
+#contact li {
+    list-style-type: none;
+}
+
+#contact li img:hover {
+    filter: contrast(0.3);
+}
+
+@media (max-width: 500px) {
+    li, .logopop_up, .logo img, .logo_f, #contact li{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .picture img {
+        width: 40%;
+    }
+}
