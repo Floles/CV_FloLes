@@ -1,0 +1,20 @@
+.subtitle {
+    color: darkorange;
+}
+
+li {
+    list-style-type: circle;
+}
+
+.logo {
+    position: absolute;
+    width: 130px;
+    height: 70px;
+    right: 10px;
+    top: 230px;
+    
+}
+
+img {
+    width: 70%;
+}
